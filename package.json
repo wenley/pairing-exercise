@@ -1,0 +1,12 @@
+{
+  "name": "pairing-exercise",
+  "version": "1.0.0",
+  "description": "Pair Programming Workshop",
+  "main": "index.js",
+  "repository": "git@github.com:wenley/pairing-exercise.git",
+  "author": "Wenley Tong <wenley@flexport.com>",
+  "license": "MIT",
+  "dependencies": {
+    "qunit": "^2.6.1"
+  }
+}
