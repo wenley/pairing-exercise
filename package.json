@@ -6,6 +6,9 @@
   "repository": "git@github.com:wenley/pairing-exercise.git",
   "author": "Wenley Tong <wenley@flexport.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "qunit tests/*-test.js"
+  },
   "dependencies": {
     "qunit": "^2.6.1"
   }
