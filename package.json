@@ -10,6 +10,6 @@
     "test": "qunit tests/*-test.js"
   },
   "dependencies": {
-    "qunit": "^2.6.1"
+    "qunit": "^2.11.3"
   }
 }
