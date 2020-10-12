@@ -20,12 +20,14 @@ More languages will be added at request.
 
 ### Ruby
 
-0. Install bundler
-1. Run `bundle`
-2. Run `rspec spec/conway_game_spec.rb`
+0. Install Ruby 2.7.1
+1. Install bundler (`gem install bundler`)
+2. Run `bundle`
+3. Run `rspec spec/conway_game_spec.rb`
 
 ### Javascript
 
-0. Install yarn
+0. Install yarn (`brew install yarn`)
 1. Run `yarn`
 2. Run `yarn test`
+
