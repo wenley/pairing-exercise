@@ -35,6 +35,8 @@ More languages will be added at request.
 
 In this workshop, you will implement the same problem multiple times, with different partners and different modes of pairing. After each session, you should either throw away all the code you wrote (preferable), or commit and forget the code you wrote, starting from a clean slate each time.
 
+#### The Problem
+
 The particular problem is not terribly important, it is [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). The rules are simple:
 - You have a 2D Euclidean grid of "cells"
 - Each cell can either be "alive" or "dead" at a given moment in time
@@ -45,28 +47,36 @@ The particular problem is not terribly important, it is [Conway's Game of Life](
   - If the cell has 3 alive neighbors, it becomes alive
   - If the cell has 4 or more alive neighbors, it dies ("overcrowding")
 
+#### The Task
+
 The task in each session is the same: Implement Conway's game of life. Remember, solving the problem is NOT the main purpose of the exercise. Finishing an implementation is not the goal.
 
-Instead, the goal is to think and reflect about how the collaboration dynamic feels. In each session, the mode by which you solve the problem will be different -> prompt to think about how different setups for pairing each operate. One recommended progression:
+Instead, the goal is to think and reflect about how the collaboration dynamic feels. In each session, the mode by which you solve the problem will be different -> prompt to think about how different setups for pairing each operate. See the next section for a progression of pairing styles.
 
-1. Unguided pairing
-  - Do whatever you want!
-  - Main goal: Get familiar with the problem and its gotchas
-  - If you need to simplify the problem (e.g. not infinite grid, not efficient storage, change the rules), do so, but try to get back to the original prompt
-  - You should write tests to verify correctness. The Wikipedia page has [some good test cases](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns).
-2. Driver / Navigator
-  - One person is the Driver, the other the Navigator
-  - The Driver is the only person allowed to type
-  - The Driver cannot type anything not directed by the Navigator
-3. TDD
-  - This extends the Driver / Navigator pattern, except the pattern should now be:
-    - Write a test
-    - Show it fails
-    - Make it pass
-    - Repeat
-4. TDD Tennis
-  - This is a different way to do TDD, without the Driver / Navigator collaboration dynamic
-  - One person writes a test that the other person must make pass with minimal (though still collaborative) work
-  - If when implementing a test, you want to write another smaller test, do so and hand it off to the other person to implement
-5. Silent TDD Tennis
-  - You may talk with your partner for at most 2 minutes at the beginning (or not at all!). Afterwards, no talking and proceed with TDD Tennis as usual.
+## Styles of Pairing
+
+#### Unguided pairing
+- Do whatever you want!
+- Main goal: Get familiar with the problem and its gotchas
+- If you need to simplify the problem (e.g. not infinite grid, not efficient storage, change the rules), do so, but try to get back to the original prompt
+- You should write tests to verify correctness. The Wikipedia page has [some good test cases](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns).
+
+#### Driver / Navigator
+- One person is the Driver, the other the Navigator
+- The Driver is the only person allowed to type
+- The Driver cannot type anything not directed by the Navigator
+
+#### TDD
+- This extends the Driver / Navigator pattern, except the pattern should now be:
+  - Write a test
+  - Show it fails
+  - Make it pass
+  - Repeat
+
+#### TDD Tennis
+- This is a different way to do TDD, without the Driver / Navigator collaboration dynamic
+- One person writes a test that the other person must make pass with minimal (though still collaborative) work
+- If when implementing a test, you want to write another smaller test, do so and hand it off to the other person to implement
+
+#### Silent TDD Tennis
+- You may talk with your partner for at most 2 minutes at the beginning (or not at all!). Afterwards, no talking and proceed with TDD Tennis as usual.
