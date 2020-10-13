@@ -55,28 +55,28 @@ Instead, the goal is to think and reflect about how the collaboration dynamic fe
 
 ## Styles of Pairing
 
-#### Unguided pairing
+### Unguided pairing
 - Do whatever you want!
 - Main goal: Get familiar with the problem and its gotchas
 - If you need to simplify the problem (e.g. not infinite grid, not efficient storage, change the rules), do so, but try to get back to the original prompt
 - You should write tests to verify correctness. The Wikipedia page has [some good test cases](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns).
 
-#### Driver / Navigator
+### Driver / Navigator
 - One person is the Driver, the other the Navigator
 - The Driver is the only person allowed to type
 - The Driver cannot type anything not directed by the Navigator
 
-#### TDD
+### TDD
 - This extends the Driver / Navigator pattern, except the pattern should now be:
   - Write a test
   - Show it fails
   - Make it pass
   - Repeat
 
-#### TDD Tennis
+### TDD Tennis
 - This is a different way to do TDD, without the Driver / Navigator collaboration dynamic
 - One person writes a test that the other person must make pass with minimal (though still collaborative) work
 - If when implementing a test, you want to write another smaller test, do so and hand it off to the other person to implement
 
-#### Silent TDD Tennis
+### Silent TDD Tennis
 - You may talk with your partner for at most 2 minutes at the beginning (or not at all!). Afterwards, no talking and proceed with TDD Tennis as usual.
