@@ -77,8 +77,8 @@ Instead, the goal is to think and reflect about how the collaboration dynamic fe
 - This is a different way to do TDD, without the Driver / Navigator collaboration dynamic
 - One person writes a test that the other person must make pass with minimal (though still collaborative) work
 - What happens if you want to write a new test while making a different one pass?
-  - Suppose Person A is implementing Test 1, but wants to introduce Test 2. Do it! Then have Person B implement Test 2 before switching back to have Person A finish implementing Test 1.
-  - This can nest ad infinitum, but before doing so, ask yourself: Could I write less code to finish Test 1 before writing Test 2? Remember, one reason to practice TDD is to write less code at a time.
+  - Suppose Person A is implementing the code to make Test 1 pass, but wants to introduce Test 2 as an intermediate step. Do it! Then have Person B implement the code to make Test 2 pass before switching back to have Person A finish making Test 1 pass.
+  - This can nest ad infinitum, but before doing so, ask yourself: Could I write less code to make Test 1 pass before writing Test 2? Remember, one reason to practice TDD is to write less code at a time.
 
 ### Silent TDD Tennis
 - You may talk with your partner for at most 2 minutes at the beginning (or not at all!). Afterwards, no talking and proceed with TDD Tennis as usual.
